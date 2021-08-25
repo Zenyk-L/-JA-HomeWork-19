@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>File upload example</title>
+</head>
+<body>
+	<div style="width: 550px; margin: 0 auto;">
+
+		<div>
+
+
+			<div>
+				<h3>Registration </h3>
+
+				<form id="singleUploadForm" name="singleUploadForm">
+				
+				<label>First name </label>
+				<input id="firstName" type="text" name="firstName" value="Ivan" required />
+				<br><br>
+				<label>Last name</label>
+				<input id="lastName" type="text" name="lastName" value="Petrovich"  required />
+				<br><br>
+				<label>Age</label>
+				<input id="age" type="text" name="age" value="18"  required />
+				<br><br>
+					<input id="singleFileUploadInput" type="file" name="file" required />
+					<br><br>
+					<button type="submit">Submit</button>
+				</form>
+
+				<div>
+					<div id="singleFileUploadError"></div>
+					<div id="singleFileUploadSuccess"></div>
+				</div>
+
+			</div>
+
+		</div>
+		<br><br>
+		<a href="student_page.html">Student page</a>
+	</div>
+	
+
+	<script src="/js/main.js"></script>
+</body>
+</html>
